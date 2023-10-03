@@ -1,0 +1,30 @@
+1- n^2 - n + 549 < 49n + 49
+   n^2 - n + 549 - 49n - 49 < 0
+   n^2 - 50n + 500 < 0
+   as raizes da equação por baskara: x1 = 13,8 e x2 = 36,1
+
+2- N * N * N * (2 + 1) = 3 * N^3
+   O(N^3)
+
+3- (N - 1) * (N - 1) * (N - 2) = (N - 1)^2 * (N - 2)
+   O(N^3)
+
+4- (N - 2) * (2 * N - 1) = 2N^2 - 4N - 2
+   O(N^2)
+
+5- Melhor caso: O(1), onde 1 representa o número mínimo de interações (quando N = 1).
+   Pior caso: O(N), onde N representa o número máximo de interações (quando N é maior que 1).
+
+6- Melhor caso: O(N/2), onde N representa o tamanho da entrada.
+   Pior caso: O(N/2), onde N representa o tamanho da entrada.
+   Tanto no melhor caso quanto no pior caso, o tempo de execução é proporcional a N, mas com um fator constante de 1/2.
+
+7- Seria utilizado para valores de entrada(n) pequenas.
+
+8- a) As complexidades assintóticas de Alg1, Alg2 e Alg3 estão, respectivamente, em O(n), O(n²) e O(n³).
+
+9- b) A pesquisa binária percorre no pior caso log2 n elementos.
+
+10- a) 5n+4 ; MELHOR caso: O(1), PIOR caso: O(n)
+    b) 11 MELHOR caso: O(1) ; 6n+6 PIOR caso: O(n)
+    c) 4n+1 MELHOR caso: O(n) ; 6n-1 PIOR caso: O(n)
