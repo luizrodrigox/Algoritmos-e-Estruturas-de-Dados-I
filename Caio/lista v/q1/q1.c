@@ -54,9 +54,10 @@ void remover(fila *f){
 }
 
 int main(){
-  fila f;
-  f.inicio = NULL;
-  f.fim = NULL;
+  fila *f1;
+  f1 = (fila*)malloc(sizeof(fila));
+  f1->fim = NULL;
+  f1->inicio = NULL;
   int seletor;
   
   while(seletor != 0){
@@ -69,19 +70,20 @@ int main(){
       exit(1);
     break;
     case 1:
-      inserir(&f);
+      inserir(f1);
     break;
     case 2:
-      listar(&f);
+      listar(f1);
     break;
     case 3:
-      remover(&f);
+      remover(f1);
     break;
     default:
       printf("invalido");
     break;
   }
   }
+  free(f1);
 
   return 0;
 }

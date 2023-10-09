@@ -28,10 +28,12 @@ int main(){
     break;
     case 2:
       printf("\nCPFs cadastrados:\n");
+      if(inicio == fim){
+        printf("fila vazia !\n");
+      }
       for(int i = inicio; i < fim; i++){
         printf("%d\n", fila[i]);
       }
-      ;
     break;
     case 3:
       if(inicio > fim - 1){
